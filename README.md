@@ -14,6 +14,15 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-```html
-<body>
-</body>
+```csharp
+using System;
+
+namespace Prueba;
+
+public class Probando
+{
+  public static void Main() {
+    Console.WriteLine("¡Hola mundo!");
+    Console.ReadLine();
+  }
+}
